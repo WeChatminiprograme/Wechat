@@ -1,0 +1,59 @@
+<!--miniprogram/pages/movie_isgood/movie_isgood.wxml-->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="imgUrls">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" style="width:100%;height:100%" mode='scaleToFill' />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='content'>
+    <image src='../../static/hot.png' style=' height: 30rpx; width: 30rpx;'></image>
+    <text>\t热门超英</text>
+  </view>
+  <view class='content'>
+    <image src='../../static/interest.png' style=' height: 30rpx; width: 30rpx;'></image>
+    <text>热门预告</text>
+  </view>
+
+  <view class='list'>
+    <view class='head'>
+      <image src='../../static/interest.png' style=' height: 30rpx; width: 30rpx;'></image>
+      <text>猜你喜欢</text>
+    </view>
+  </view>
+
+ <view class="_view 85042c64 page-block guess-u-like">
+      <view class="_view 85042c64 single-like-movie">
+        <navigator open-type="navigate" url="../movie/movie-fake" class="_navigator 85042c64">
+          <image src='{{image}}' class="_image 85042c64 like-movie"></image>
+        </navigator>
+        <view class="_view 85042c64 movie-desc">
+          <view class="_view 85042c64 movie-title">蜘蛛侠：英雄归来</view>
+          <view class="_view 85042c64 movie-info">2018 / 美国 / 科幻 / 超级英雄</view>
+          <view class="_view 85042c64 movie-info">上映时间：2017-09-08（中国大陆）</view>
+        </view>
+        
+        <view class="_view 85042c64 movie-oper" bindtap="handleProxy" data-eventid="{{'85042c64-1'}}" data-comkey="{{$k}}">
+          <image wx:if="{{post.upstatus}}" src=''></image>
+          <image wx:else src="../../static/praise.png" class="_image 85042c64 praise-ico"></image>
+          <view class="_view 85042c64 praise-me">点赞</view>
+          <view class='is_goodnum'>{{wxml_isgood}}</view>
+          <view animation="{{animationData}}" class="_view 85042c64 praise-me animation-opacity">+1</view>
+        </view>
+      </view>
+    </view>
+
+  <!-- <view class='movie'>
+    <view class='img'>
+      <image src='{{image}}' style='height:100px; width:60px;'></image>
+    </view>
+    <view class='infos'>
+      <view class='movie_content'>what name</view>
+      <view>content</view>
+      <view>date</view>
+    </view>
+  </view> -->
+
+  
+</view>

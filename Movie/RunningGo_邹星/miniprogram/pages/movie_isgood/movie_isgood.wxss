@@ -1,0 +1,150 @@
+/* miniprogram/pages/movie_isgood/movie_isgood.wxss */
+
+.content {
+  margin-top: 20rpx;
+  height: 80rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+.content text {
+  font-weight: 700;
+}
+
+.list {
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+  height: 50rpx;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: white;
+  position: relative;
+  font-weight: 700;
+}
+
+.img {
+  float: left;
+}
+
+.img image {
+  display: block;
+  border-left: 20px;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.infos {
+  float: left;
+  width: 480rpx;
+  height: 200rpx;
+  padding: 20rpx 0 0 20rpx;
+}
+
+/* 猜你喜欢 start */
+.guess-u-like {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.single-like-movie {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 30rpx 20rpx;
+}
+.like-movie {
+	width: 180rpx;
+	height: 240rpx;
+	border-radius: 3%;
+}
+.movie-desc {
+	width: 340rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.movie-title {
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.movie-info {
+	color: #808080;
+	font-size: 14px;
+}
+
+/* 点赞css */
+.movie-oper {
+	width: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	
+	border-left: dashed 2px;
+	border-left-color: #dbdbda;
+}
+.praise-ico {
+	width: 40rpx;
+	height: 40rpx;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+.praise-me {
+	font-size: 14px;
+	color: #feab2a;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+.animation-opacity {
+	font-weight: bold;
+	opacity: 0;
+}
+.is_goodnum{
+  	font-size: 14px;
+	color: #feab2a;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+

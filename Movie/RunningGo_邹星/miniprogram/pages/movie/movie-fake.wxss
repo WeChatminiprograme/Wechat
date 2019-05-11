@@ -1,0 +1,36 @@
+.l-evalbox{
+  height: 100rpx;
+  padding: 0 3%;
+  margin-top: 10rpx;
+  background: #FFF;
+  line-height: 100rpx;
+}
+
+.l-evaltxt{
+  width: 120rpx;
+  display: block;
+  font-size: 26rpx;
+  color: #666666;
+}
+
+.l-evalist .icon{
+  background-position: -77rpx -246rpx;
+  width: 40rpx;
+  height: 43rpx;
+  margin-right: 30rpx;
+}
+
+.l-evalist .cur{
+  background-position: -128rpx -246rpx;
+}
+
+.l-evalist .icon:last-child{
+  margin: 0;
+}
+
+.section{
+  padding-left: 30rpx;
+}
+.input{
+  border: 1px solid gray;
+}

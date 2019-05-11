@@ -1,0 +1,5 @@
+<!--miniprogram/pages/database_test/database_test.wxml-->
+<view>
+<view>点赞次数：{{isgood}}</view>
+<view>被踩次数：{{notgood}}</view>
+</view>
