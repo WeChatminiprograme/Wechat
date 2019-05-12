@@ -1,0 +1,24 @@
+/* miniprogram/pages/image/image.wxss */
+/* 插入图片按钮 */
+/* .insert-img {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0; 
+}
+.insert-img .btn {
+    display: flex;
+    border: 1px solid #f1f1f1;
+    padding: 4px 10px;
+}
+.show-img {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    border: 1px solid #eee;
+}
+.show-img image {
+    width: 100%;
+    height: 120xp;
+} */
